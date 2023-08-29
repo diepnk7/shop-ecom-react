@@ -1,39 +1,56 @@
-import React from 'react'
+import React from "react";
+import ProductItems from "./ProductItems";
 
 function HomePage() {
   return (
-    <main className='homepage'>
-        <div className='img-main'>
-
+    <main className="homepage">
+      <div className="img-main"></div>
+      <div className="brand bg-black">
+        <div className=" container">
+          <div className="flex items-center justify-between py-[44px]">
+            <img className="" src="assets/brand/versace.png" alt="" />
+            <img className="" src="assets/brand/zara.png" alt="" />
+            <img className="" src="assets/brand/gucci.png" alt="" />
+            <img className="" src="assets/brand/prada.png" alt="" />
+            <img className="" src="assets/brand/calvin-klein.png" alt="" />
+          </div>
         </div>
-        <div className='brand bg-black'>
-            <div className=' container'>
-                <div className='flex items-center justify-between py-[44px]'>
-                    <img className='' src='assets/brand/versace.png' alt='' />
-                    <img className='' src='assets/brand/zara.png' alt='' />
-                    <img className='' src='assets/brand/gucci.png' alt='' />
-                    <img className='' src='assets/brand/prada.png' alt='' />
-                    <img className='' src='assets/brand/calvin-klein.png' alt='' />
-                </div>
-            </div>
-        </div>
+      </div>
 
-        <p className='font-integralcf text-[48px] font-bold text-center mt-[72px] mb-[55px]'>NEW ARRIVALS</p>
+      <p className="font-integralcf text-[48px] font-normal text-center mt-[72px] mb-[55px] uppercase">
+        NEW ARRIVALS
+      </p>
 
-        <div className='items'>
-            <div className='image'></div>
-            <p className='name'></p>
-            {/* <Typography component="legend">Controlled</Typography>
-            <Rating
-            name="simple-controlled"
-            value={value}
-            onChange={(event, newValue) => {
-                setValue(newValue);
-            }}
-            /> */}
-        </div>
+      <ProductItems />
+
+      <div className="container flex items-center justify-center">
+        <button
+          className="mt-[36px] h-[52px] rounded-[62px] bg-[#F0F0F0] px-[54px] border-[1px] border-[#000] border-opacity-[10%] font-Satoshi text-[16px] font-medium text-center text-black"
+          value=""
+        >
+          View All
+        </button>
+      </div>
+
+      <div className="container flex flex-wrap gap-3 items-center md:justify-between justify-center border-t-[1px] border-t-[#000] border-opacity-[10%] !my-[64px]"></div>
+
+      <p className="font-integralcf text-[48px] font-normal text-center mb-[55px] uppercase">
+        top selling
+      </p>
+
+      <ProductItems />
+
+      <div className="container flex items-center justify-center">
+        <button
+          className="mt-[36px] h-[52px] rounded-[62px] bg-[#F0F0F0] px-[54px] border-[1px] border-[#000] border-opacity-[10%] font-Satoshi text-[16px] font-medium text-center text-black"
+          value=""
+        >
+          View All
+        </button>
+      </div>
+
     </main>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
