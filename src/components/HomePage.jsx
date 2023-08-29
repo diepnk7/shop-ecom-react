@@ -6,13 +6,13 @@ function HomePage() {
     <main className="homepage">
       <div className="img-main"></div>
       <div className="brand bg-black">
-        <div className=" container">
-          <div className="flex items-center justify-between py-[44px]">
-            <img className="" src="assets/brand/versace.png" alt="" />
-            <img className="" src="assets/brand/zara.png" alt="" />
-            <img className="" src="assets/brand/gucci.png" alt="" />
-            <img className="" src="assets/brand/prada.png" alt="" />
-            <img className="" src="assets/brand/calvin-klein.png" alt="" />
+        <div className="container">
+          <div className="flex flex-wrap sm:items-center items-between lg:justify-between justify-center gap-[20px] sm:py-[44px] py-[16px]">
+            <img className="md:h-full h-[25px]" src="assets/brand/versace.png" alt="" />
+            <img className="md:h-full h-[25px]" src="assets/brand/zara.png" alt="" />
+            <img className="md:h-full h-[25px]" src="assets/brand/gucci.png" alt="" />
+            <img className="md:h-full h-[21px]" src="assets/brand/prada.png" alt="" />
+            <img className="md:h-full h-[21px]" src="assets/brand/calvin-klein.png" alt="" />
           </div>
         </div>
       </div>
