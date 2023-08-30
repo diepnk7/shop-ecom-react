@@ -25,12 +25,12 @@ function ProductItems() {
         <div className="mx-auto">
           <h2 className="sr-only">Products</h2>
 
-          <div className="grid grid-cols-1 gap-[20px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+          <div className="grid grid-cols-2 gap-[20px] lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
             <a key="" href="" className="group">
               <div className="aspect-[1/1] w-full overflow-hidden rounded-[20px] bg-gray-200">
                 <img src="assets/product-image/product-image-1.png" alt="" className="h-full w-full object-cover object-center group-hover:opacity-75" />
               </div>
-              <h3 className="mt-[16px] font-Satoshi text-[20px] font-bold ">
+              <h3 className="mt-[16px] font-Satoshi md:text-[20px] text-[16px] font-bold ">
                 T-SHIRT WITH TAPE DETAILS
               </h3>
               <div className='flex font-Satoshi text-[14px] font-normal'>
@@ -38,7 +38,7 @@ function ProductItems() {
                 <Box sx={{ ml: 2 }}>{labels[value]}</Box><span className='text-[#000] opacity-[60%]'>/5</span>
               </div>
               <div className="flex gap-[10px]">
-                <p className="mt-[8px] font-Satoshi text-[24px] font-bold text-black">$120</p>
+                <p className="mt-[8px] font-Satoshi md:text-[24px] text-[20px] font-bold text-black">$120</p>
               </div>
             </a>
 
@@ -46,7 +46,7 @@ function ProductItems() {
               <div className="aspect-[1/1] w-full overflow-hidden rounded-[20px] bg-gray-200">
                 <img src="assets/product-image/product-image-2.png" alt="" className="h-full w-full object-cover object-center group-hover:opacity-75" />
               </div>
-              <h3 className="mt-[16px] font-Satoshi text-[20px] font-bold ">
+              <h3 className="mt-[16px] font-Satoshi md:text-[20px] text-[16px] font-bold ">
                 SKINNY FIT JEANS
               </h3>
               <div className='flex font-Satoshi text-[14px] font-normal'>
@@ -54,19 +54,19 @@ function ProductItems() {
                 <Box sx={{ ml: 2 }}>{labels[value]}</Box><span className='text-[#000] opacity-[60%]'>/5</span>
               </div>
               <div className="flex gap-[10px]">
-                <p className="mt-[8px] font-Satoshi text-[24px] font-bold text-black">$240</p>
-                <p className="mt-[8px] font-Satoshi text-[24px] font-bold text-[#000] opacity-[60%] line-through">$260</p>
+                <p className="mt-[8px] font-Satoshi md:text-[24px] text-[20px] font-bold text-black">$120</p>
+                <p className="mt-[8px] font-Satoshi md:text-[24px] text-[20px] font-bold text-[#000] opacity-[60%] line-through">$160</p>
                 <div className='mt-[11px] font-Satoshi font-normal bg-[#f33] bg-opacity-[10%] rounded-[62px]'>
-                  <p className="text-[12px] text-[#FF3333] py-[6px] px-[14px]">-20%</p>
+                  <p className="md:text-[12px] text-[10px] text-[#FF3333] py-[6px] px-[14px]">-30%</p>
                 </div>
               </div>
             </a>
 
-            <a key="" href="" className="group">
+            <a key="none" href="#" className="group">
               <div className="aspect-[1/1] w-full overflow-hidden rounded-[20px] bg-gray-200">
                 <img src="assets/product-image/product-image-3.png" alt="" className="h-full w-full object-cover object-center group-hover:opacity-75" />
               </div>
-              <h3 className="mt-[16px] font-Satoshi text-[20px] font-bold ">
+              <h3 className="mt-[16px] font-Satoshi md:text-[20px] text-[16px] font-bold ">
                 CHECKERED SHIRT
               </h3>
               <div className='flex font-Satoshi text-[14px] font-normal'>
@@ -74,7 +74,7 @@ function ProductItems() {
                 <Box sx={{ ml: 2 }}>{labels[value]}</Box><span className='text-[#000] opacity-[60%]'>/5</span>
               </div>
               <div className="flex gap-[10px]">
-                <p className="mt-[8px] font-Satoshi text-[24px] font-bold text-black">$180</p>
+                <p className="mt-[8px] font-Satoshi md:text-[24px] text-[20px] font-bold text-black">$180</p>
               </div>
             </a>
 
@@ -82,7 +82,7 @@ function ProductItems() {
               <div className="aspect-[1/1] w-full overflow-hidden rounded-[20px] bg-gray-200">
                 <img src="assets/product-image/product-image-4.png" alt="" className="h-full w-full object-cover object-center group-hover:opacity-75" />
               </div>
-              <h3 className="mt-[16px] font-Satoshi text-[20px] font-bold ">
+              <h3 className="mt-[16px] font-Satoshi md:text-[20px] text-[16px] font-bold ">
                 SLEEVE STRIPED T-SHIRT
               </h3>
               <div className='flex font-Satoshi text-[14px] font-normal'>
@@ -90,10 +90,10 @@ function ProductItems() {
                 <Box sx={{ ml: 2 }}>{labels[value]}</Box><span className='text-[#000] opacity-[60%]'>/5</span>
               </div>
               <div className="flex gap-[10px]">
-                <p className="mt-[8px] font-Satoshi text-[24px] font-bold text-black">$120</p>
-                <p className="mt-[8px] font-Satoshi text-[24px] font-bold text-[#000] opacity-[60%] line-through">$160</p>
+                <p className="mt-[8px] font-Satoshi md:text-[24px] text-[20px] font-bold text-black">$120</p>
+                <p className="mt-[8px] font-Satoshi md:text-[24px] text-[20px] font-bold text-[#000] opacity-[60%] line-through">$160</p>
                 <div className='mt-[11px] font-Satoshi font-normal bg-[#f33] bg-opacity-[10%] rounded-[62px]'>
-                  <p className="text-[12px] text-[#FF3333] py-[6px] px-[14px]">-30%</p>
+                  <p className="md:text-[12px] text-[10px] text-[#FF3333] py-[6px] px-[14px]">-30%</p>
                 </div>
               </div>
             </a>

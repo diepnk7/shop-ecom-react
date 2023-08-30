@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage:{
+        'cats': 'url(https://placekitten.com/1400)'
+      },
       fontFamily: {
         Satoshi: ["Satoshi"],
         integralcf: ["integralcf"],
